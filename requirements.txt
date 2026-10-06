@@ -1,0 +1,4 @@
+jinja2
+markdown
+html2text
+pillow

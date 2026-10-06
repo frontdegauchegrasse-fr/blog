@@ -1,0 +1,37 @@
+# Ce fichier est public (dépôt GitHub) : AUCUN mot de passe ici.
+# Les informations de la boîte mail se mettent dans les « secrets » du dépôt
+# (Settings > Secrets and variables > Actions), voir le README.
+
+[site]
+title = "Front de gauche – Pays Grassois"
+tagline = "Pour une gauche de transformation"
+# Adresse publique du site, sans slash final. Exemples :
+#   "https://identifiant.github.io/blog"   (adresse GitHub par défaut)
+#   "https://www.mon-domaine.fr"            (nom de domaine personnalisé)
+base_url = "https://identifiant.github.io/blog"
+language = "fr"
+posts_per_page = 10
+banner = "/static/tetiere.jpg"
+
+links = [
+  ["Front de gauche Grasse (ancien blog)", "https://frontdegauchegrasse.wordpress.com/"],
+  ["L'Humanité", "https://www.humanite.fr/"],
+  ["PCF 06", "http://pcf06.over-blog.com/"],
+]
+
+[site.social]
+facebook = ""
+instagram = ""
+twitter = ""
+
+[mail]
+imap_port = 993
+folder = "INBOX"
+done_folder = "Publies"
+rejected_folder = "Refuses"
+
+# Accusé de réception par mail (le mot de passe vient du secret SMTP_PASSWORD)
+[smtp]
+enabled = false
+host = "smtp.exemple.fr"
+port = 465
